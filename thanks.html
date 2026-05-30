@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お申し込みありがとうございます｜IZA9</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #0a0e1a;
+  color: #f1f5f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+.icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: #f1f5f9;
+}
+.sub {
+  font-size: 1rem;
+  color: #94a3b8;
+  line-height: 1.8;
+  max-width: 480px;
+  margin-bottom: 2.5rem;
+}
+.highlight {
+  color: #60a5fa;
+  font-weight: 700;
+}
+.card {
+  background: #111827;
+  border: 1px solid rgba(59,130,246,0.2);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  max-width: 480px;
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.card-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #60a5fa;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+.card-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: #94a3b8;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #1e293b;
+}
+.card-item:last-child { border-bottom: none; }
+.card-item::before {
+  content: '→';
+  color: #3b82f6;
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+.btn {
+  display: inline-block;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  padding: 0.875rem 2rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+.btn:hover { background: #60a5fa; }
+.logo {
+  position: fixed;
+  top: 1.5rem;
+  left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #60a5fa;
+  letter-spacing: 0.05em;
+}
+</style>
+</head>
+<body>
+<div class="logo">IZA9</div>
+
+<div class="icon">✅</div>
+<h1>お申し込みありがとうございます</h1>
+<p class="sub">
+  無料業務診断のお申し込みを受け付けました。<br>
+  <span class="highlight">24時間以内</span>にメールまたはXのDMにてご連絡いたします。
+</p>
+
+<div class="card">
+  <div class="card-title">次のステップ</div>
+  <div class="card-item">ご連絡をお待ちください（24時間以内）</div>
+  <div class="card-item">日程調整後、オンラインにて診断を実施します</div>
+  <div class="card-item">診断結果をレポートとしてお渡しします</div>
+</div>
+
+<a href="https://izack9.github.io/AI-/" class="btn">トップページに戻る</a>
+</body>
+</html>
